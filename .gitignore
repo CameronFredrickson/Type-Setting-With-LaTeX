@@ -1,0 +1,6 @@
+# unwanted files #
+##################
+.dvi
+.log
+.aux
+.ps
