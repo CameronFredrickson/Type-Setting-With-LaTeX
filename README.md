@@ -1,2 +1,2 @@
-# Type-Setting-With-LaTeX
+# Type Setting With LaTeX
 A series of assignments from MATH 351, type setting with LaTeX
