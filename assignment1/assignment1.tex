@@ -1,5 +1,14 @@
 \documentclass{article}
-
 \begin{document}
-As shown on page 5 of the textbook, special characters such as \$, \{, \~{}, and \% are produced witha preceding backslash. Another way to produce these characters is to use the \verb!\verb#stuff#!{} command, which typesets "stuff verbatim (including spaces and special characters) in a typewriter font. The beginning and ending \verb\#\ delimiters can be replaced with other non-letter charaters such as \^{}, \textbackslash, 4, or !.
+As shown on page 5 of the textbook, special characters such as \$, \{, \~{}, and \%
+are produced with a preceding backslash. Another way to produce these char-
+acters is to use the \verb!\verb#stuff#!{} command, which typesets ``stuff'' verbatim
+(including spaces and special characters) in a typewriter font. The beginning
+and ending \verb\#\{} delimiters can be replaced with other non-letter characters such\\as \^{}, \textbackslash, 4, or !.
+
+Only use \verb#\verb# to display short strings verbatim. Do not use \verb#\verb# to
+change the font. For that purpose there is the command \verb#\texttt{text}# which
+prints ``text'' in a typewriter font.
+
+There are other commands which change the font: 
 \end{document}
