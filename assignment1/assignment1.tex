@@ -1,9 +1,11 @@
 \documentclass{article}
 \usepackage[german]{babel}
+\usepackage[super]{nth}
+\usepackage{textcomp}
 \begin{document}
 
 \begin{flushleft}
-\textbf{Exercise 1:}  \newline
+\textbf{Exercise 1:}
 \end{flushleft}
 
 As shown on page 5 of the textbook, special characters such as \$, \{, \~{}, and \%
@@ -12,8 +14,8 @@ acters is to use the \verb!\verb#stuff#!{} command, which typesets ``stuff'' ver
 (including spaces and special characters) in a typewriter font. The beginning
 and ending \verb\#\{} delimiters can be replaced with other non-letter characters such as \^{}, \textbackslash, 4, or !.
 
-Only use \verb#\verb# to display short strings verbatim. Do not use \verb#\verb# to
-change the font. For that purpose there is the command \verb#\texttt{text}# which
+Only use \verb#\verb#{} to display short strings verbatim. Do not use \verb#\verb#{} to
+change the font. For that purpose there is the command \verb#\texttt{text}#{} which
 prints ``text'' in a typewriter font.
 
 There are other commands which change the font: \textbf{bold}, \textsf{sans serif}, \textsl{slanted},
@@ -36,11 +38,11 @@ vertical spaces of 4 centimeters and 1.1 inches, resectively. Their use is dis-
 couraged.
 
 \begin{flushleft}
-\textbf{Exercise 2:}  \newline
+\textbf{Exercise 2:}
 \end{flushleft}
 
-``Hello? hellooo, HELL0-O-0? \ldots'' she screamed at the mike. 
-``the mike'' was the host of the party and was still in the back of the ballroom 
-setting up tables and chairs. the mike was a very particular individual described 
-as a good-looking, quick-thinking, bad-tempered man in his mid to late thirties.
+``Hello? hellooo, HELL0-O-0? \ldots'' she screamed at the mike.
+``the mike'' was the host of the party and was still in the back of the ballroom
+setting up tables and chairs. the mike was a very particular individual described
+as a good-looking, quick-thinking, bad-tempered man in his mid to late thirties. He was infamous for giving unsuspecting individuals the $\nth{3}^{\circ}$ and could deliver the iceiest stare with a windchill of -40\textdegree{}F.
 \end{document}
