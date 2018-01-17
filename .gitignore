@@ -4,3 +4,4 @@
 *.log
 *.aux
 *.ps
+.DS_*
