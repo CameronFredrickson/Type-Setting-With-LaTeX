@@ -43,14 +43,27 @@ Take $\mathbf{x, y} \in \mathbb{R}^n$. The inner product of $\mathbf{x}$ and $\m
 
 \newpage
 \noindent \textbf{Exercise 2}
+
 \noindent \rule{\textwidth}{.1mm}
-% 1. Navier Stokes Equation
 
-% 2. additive identity or 0(x)
+\begin{center}
+\textbf{1. Navier Stokes Equations}
+\end{center}
 
-% 3. Green's Theorem
 \begin{equation*}
-A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a closed curve C in a counter-clockwise direction.
+\frac{\partial \mathbf{v}}{\partial t} + \left( \mathbf{v} \cdot \nabla \right) \mathbf{v} =  - \nabla p + v \Delta \mathbf{v} + \mathbf{f}\left( \mathbf{x}, t\right)
+\end{equation*}
+
+\begin{center}
+\textbf{2. Additive Identity or O(x)}
+\end{center}
+
+\begin{center}
+\textbf{3. Green's Theorem}
+\end{center}
+
+A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a closed curve C in a counter-clockwise direction. (What are P and Q?)
+\begin{equation*}
 \ointctrclockwise\limits_C \left( P \, dx + Q \, dy \right) = \iint\limits_D \left( \frac{\partial P}{\partial x} - \frac{\partial Q}{\partial y} \, dx \, dy \right)
 \end{equation*}
 \end{document}
