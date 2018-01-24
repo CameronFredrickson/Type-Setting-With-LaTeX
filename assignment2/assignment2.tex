@@ -2,12 +2,12 @@
 
 \usepackage{amssymb,amsmath,amsthm}
 \usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage{esint}
 \usepackage[latin]{babel}
 
 \title{Assignment 2}
 \author{Cameron Fredrickson}
 \date{}
-\newcommand{\ud}{\, \mathrm{d}}
 
 \begin{document}
 
@@ -30,8 +30,8 @@ n! \sim \sqrt{2 \pi n} \left( \frac{n}{e} \right)^{n},
 \end{equation*} otherwise known as Stirling's formula. As an example,   100! is approximately equal to $ \sqrt{200 \pi} \left( 100/e \right)^{100} \approx 9.32 * 10^{157}.$
 
 The following is true: \begin{align*}
-\left| \int_1^a \frac{\sin x}{x} \ud x\right| &\leq \int_1^a \left|\frac{\sin x}{x}\right| \ud x \\
-&\leq \int_1^a \frac{1}{x} \ud x \\
+\left| \int_1^a \frac{\sin x}{x} \, dx\right| &\leq \int_1^a \left|\frac{\sin x}{x}\right| \, dx \\
+&\leq \int_1^a \frac{1}{x} \, dx \\
 &= \ln a.
 \end{align*}
 
@@ -43,10 +43,14 @@ Take $\mathbf{x, y} \in \mathbb{R}^n$. The inner product of $\mathbf{x}$ and $\m
 
 \newpage
 \noindent \textbf{Exercise 2}
-
-% 1. additive identity or 0(x)
-% 2. Navier Stokes Equation
-% 3. Green's Theorem
-
 \noindent \rule{\textwidth}{.1mm}
+% 1. Navier Stokes Equation
+
+% 2. additive identity or 0(x)
+
+% 3. Green's Theorem
+\begin{equation*}
+A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a closed curve C in a counter-clockwise direction.
+\ointctrclockwise\limits_C \left( P \, dx + Q \, dy \right) = \iint\limits_D \left( \frac{\partial P}{\partial x} - \frac{\partial Q}{\partial y} \, dx \, dy \right)
+\end{equation*}
 \end{document}
