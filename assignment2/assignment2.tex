@@ -1,7 +1,6 @@
 \documentclass{article}
 
 \usepackage{amssymb,amsmath,amsthm}
-\usepackage[retainorgcmds]{IEEEtrantools}
 \usepackage{esint}
 \usepackage[latin]{babel}
 
@@ -19,7 +18,7 @@
 
 Every mathematical statement, such as $ \sum_{n=1}^\infty 1/n^2 = \pi^2/6$, should be part of a sentence. Even equations need punctuation!
 
-The notation $ \lim_{x \to a} f(x) = L$ means that for every $ \varepsilon > 0$ there is a $ \delta > 0$ such that $|x-a| < \delta$ implies $|f(x)-L| < \varepsilon$. An incorrect way to typeset this definition is \begin{equation*}
+The notation $ \lim\limits_{x \rightarrow a} f(x) = L$ means that for every $ \varepsilon > 0$ there is a $ \delta > 0$ such that $|x-a| < \delta$ implies $|f(x)-L| < \varepsilon$. An incorrect way to typeset this definition is \begin{equation*}
 \forall \left( \varepsilon > 0 \right) \exists \left( \delta > 0 \right) \ni \left( |x-a| < \delta \Longrightarrow |f(x)-L| < \varepsilon \right).
 \end{equation*}
 
@@ -27,7 +26,7 @@ The symbols $\forall$, $\exists$, $\ni$, and $\Longrightarrow$ should be used on
 
 One of your instructor's favorite mathematical statements is \begin{equation*}
 n! \sim \sqrt{2 \pi n} \left( \frac{n}{e} \right)^{n},
-\end{equation*} otherwise known as Stirling's formula. As an example,   100! is approximately equal to $ \sqrt{200 \pi} \left( 100/e \right)^{100} \approx 9.32 * 10^{157}.$
+\end{equation*} otherwise known as Stirling's formula. As an example,   100! is approximately equal to $ \sqrt{200 \pi} \left( 100/e \right)^{100} \approx 9.32 \times 10^{157}.$
 
 The following is true: \begin{align*}
 \left| \int_1^a \frac{\sin x}{x} \, dx\right| &\leq \int_1^a \left|\frac{\sin x}{x}\right| \, dx \\
@@ -35,7 +34,7 @@ The following is true: \begin{align*}
 &= \ln a.
 \end{align*}
 
-After first simplfying using the exponential and the natural log functions, L'H\^opital's rule can be used to evaluate $ \lim_{x \to 2^-} (4-x)^{1/(2-x)}$
+After first simplfying using the exponential and the natural log functions, L'H\^opital's rule can be used to evaluate $ \lim\limits_{x \rightarrow 2^-} (4-x)^{1/(2-x)}$.
 
 Take $\mathbf{x, y} \in \mathbb{R}^n$. The inner product of $\mathbf{x}$ and $\mathbf{y}$ is defined by $\langle \mathbf{x},\mathbf{y} \rangle = \mathbf{x}^\intercal \mathbf{y}$. It follows that \begin{equation*}
 \langle \mathbf{x},\mathbf{x} \rangle = \mathbf{x}^\intercal \mathbf{x} = \Vert \mathbf{x} \Vert^2,
@@ -62,7 +61,7 @@ Take $\mathbf{x, y} \in \mathbb{R}^n$. The inner product of $\mathbf{x}$ and $\m
 \textbf{3. Green's Theorem}
 \end{center}
 
-A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a closed curve C in a counter-clockwise direction. (What are P and Q?)
+A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a curve C in a counter-clockwise direction. (What are P and Q?)
 \begin{equation*}
 \ointctrclockwise\limits_C \left( P \, dx + Q \, dy \right) = \iint\limits_D \left( \frac{\partial P}{\partial x} - \frac{\partial Q}{\partial y} \, dx \, dy \right)
 \end{equation*}
