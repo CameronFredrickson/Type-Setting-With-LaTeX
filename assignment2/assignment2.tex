@@ -49,6 +49,8 @@ Take $\mathbf{x, y} \in \mathbb{R}^n$. The inner product of $\mathbf{x}$ and $\m
 \textbf{1. Navier Stokes Equations}
 \end{center}
 
+I have found this equation to be interesting since I first learned of it. I don't even understand what the laplacian operator is. I just have read these equations (one them is displayed below) describe the motion of a fluid (liquid or gas) in space. I find it fascinating that although technologies in several inindustries from videogames to areospace rely on these equations today, new math must be invented to show that: ``In three space dimensions and time, given an initial velocity field, there exists a vector velocity and a scalar pressure field, which are both smooth and globally defined, that solve the Navier–Stokes equations.''. This the problem statement is given my the Clay Mathematics Institute which is offerring a \$1,000,000 to anyone who can prove or provide a counter example to the statement above.
+
 \begin{equation*}
 \frac{\partial \mathbf{v}}{\partial t} + \left( \mathbf{v} \cdot \nabla \right) \mathbf{v} =  - \nabla p + v \Delta \mathbf{v} + \mathbf{f}\left( \mathbf{x}, t\right)
 \end{equation*}
@@ -63,7 +65,7 @@ For a vector space V the property of additive identity holds. The additive ident
 \textbf{3. Green's Theorem}
 \end{center}
 
-A method of surface integration, Green's Theorem allows you to integrate over a region D enclosed by a curve C in a counter-clockwise direction. (What are P and Q?)
+A method of surface integration, Green's Theorem allows you to take a line integral over a region D enclosed by a curve C in a counter-clockwise direction. Where P and Q are functions of x and y that have continuous partial derivatives over D.
 \begin{equation*}
 \ointctrclockwise\limits_C \left( P \, dx + Q \, dy \right) = \iint\limits_D \left( \frac{\partial P}{\partial x} - \frac{\partial Q}{\partial y} \, dx \, dy \right)
 \end{equation*}
