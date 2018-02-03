@@ -2,6 +2,8 @@
 % compile twice or thrice for table of contents, .bib, index, or label
 \documentclass{article}
 
+\usepackage{hologo}
+
 \title{Assignment 3}
 \author{Math 351}
 \date{}
@@ -10,13 +12,20 @@
 
 \maketitle
 
-\tableofcontents
+\tableofcontents % needs to be blue and clickable
 \section{Instructions}
 There are two exercises (which were typeset using the theorem environment).
+% spacing between lines needs to be accounted for
+\noindent\textbf{Exercise 1.} \emph{Recreate this entire document.}\textsuperscript{1}
 
-\textbf{Exercise 1}
+\noindent\textbf{Exercise 2.} \emph{Create a new document containing a short description
+of three of your favorite books, papers, or other publications. Be sure to include
+a bibliog-raphy, created using \hologo{BibTeX}.}
 
-\textbf{Exercise 2}
+An assignment which completes Exercise 2 in an interesting way or makes amusing
+use of mathematical typesetting will earn the coveted \LaTeX er of the week distiction.
+
+% 'Due Date' in table of contents but 'When to turn it in' in the text
 \subsection{Due Date}
 \section{Euler was excellent}
 \end{document}
