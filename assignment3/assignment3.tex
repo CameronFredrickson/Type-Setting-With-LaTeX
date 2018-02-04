@@ -10,6 +10,8 @@
 \usepackage{makeidx}
 \makeindex
 
+\newtheorem{theorem}{Theorem}
+
 \title{Assignment 3}
 \author{Math 351}
 \date{}
@@ -45,4 +47,19 @@ Euler proved many statements, such as
 \end{equation}
 where q is an indeterminate. Equation \eqref{eq1} \index{pentagonal number theorem}is known as Euler's pentagonal number
 theorem. Euler also proved theorem 1 below.
+
+\begin{theorem}[The Basel Problem.]
+\label{E}
+\emph{We have} \[\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}\].
+\end{theorem}
+
+Euler's original proof of Theorem 1 makes unjustified assumptions that infinite products and sums behave like finite products and sums, but interesting nonetheless and worth displaying.
+
+\begin{proof}
+Using the power series for sin x, we have
+\begin{align*}
+\frac{sin x}{x} & = \frac{1}{x} \left( x \cdots \right)
+\end{align*}
+\end{proof}
+
 \end{document}
