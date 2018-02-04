@@ -49,17 +49,20 @@ where q is an indeterminate. Equation \eqref{eq1} \index{pentagonal number theor
 theorem. Euler also proved theorem 1 below.
 
 \begin{theorem}[The Basel Problem.]
-\label{E}
-\emph{We have} \[\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}\].
+% formatting of the summation needs to be adjusted
+We have $\sum\limits_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$.
 \end{theorem}
 
 Euler's original proof of Theorem 1 makes unjustified assumptions that infinite products and sums behave like finite products and sums, but interesting nonetheless and worth displaying.
 
 \begin{proof}
 Using the power series for sin x, we have
-\begin{align*}
-\frac{sin x}{x} & = \frac{1}{x} \left( x \cdots \right)
-\end{align*}
+\begin{align}
+    \frac{\sin x}{x} & = \frac{1}{x} \left(x-\frac{x^3}{3!}-\frac{x^5}{5!}-\cdots \right) \nonumber \\
+    & = 1 - \frac{x^2}{3!} - \frac{x^4}{5!} - \cdots \nonumber \\
+    & = \left(1-\frac{x}{\pi} \right) \left(1+\frac{x}{\pi} \right) \left( 1 - \frac{x}{\pi} \right) \left( 1 + \frac{x}{\pi} \right)\cdots
+\end{align}
+where the reasoning\footnote{This reasoning is actually true, just needs further justification.}
 \end{proof}
 
 \end{document}
