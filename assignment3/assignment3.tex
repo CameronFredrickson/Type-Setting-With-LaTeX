@@ -23,13 +23,13 @@
 \tableofcontents
 \section{Instructions}
 
-There are two exercises (which were typeset using the theorem environment).
-% spacing between lines needs to be accounted for
-\noindent\textbf{Exercise 1.} \emph{Recreate this entire document.}\footnote{How meta.}
+There are two exercises (which were typeset using the theorem environment).\newline
+
+\noindent\textbf{Exercise 1.} \emph{Recreate this entire document.}\footnote{How meta.} \index{meta} \newline
 
 \noindent\textbf{Exercise 2.} \emph{Create a new document containing a short description
 of three of your favorite books, papers, or other publications. Be sure to include
-a bibliog-raphy, created using \hologo{BibTeX}.}
+a bibliog-raphy, created using \hologo{BibTeX}.} \index{BibTeX} \newline
 
 An assignment which completes Exercise 2 in an interesting way or makes amusing
 use of mathematical typesetting will earn the coveted \LaTeX er of the week distiction.
@@ -41,7 +41,7 @@ to your solutions to Assingment 3 on or before Sunday.
 
 \section{Euler was excellent}
 
-Euler proved many statements, such as
+Euler \index{Euler}proved many statements, such as
 \begin{equation}
     \prod_{m=1}^{\infty} \left(1-q^m\right) = \sum_{n=\infty}^{\infty} \left(-1\right)^n q^{\left(3n^2-n\right)/2}. \label{eq1}
 \end{equation}
@@ -50,19 +50,28 @@ theorem. Euler also proved theorem 1 below.
 
 \begin{theorem}[The Basel Problem.]
 % formatting of the summation needs to be adjusted
-We have $\sum\limits_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$.
+We have $\displaystyle\sum\limits_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$.
 \end{theorem}
 
-Euler's original proof of Theorem 1 makes unjustified assumptions that infinite products and sums behave like finite products and sums, but interesting nonetheless and worth displaying.
+Euler's \index{Euler}original proof of Theorem 1 makes unjustified assumptions that infinite products and sums behave like finite products and sums, but interesting nonetheless and worth displaying.
 
 \begin{proof}
 Using the power series for sin x, we have
 \begin{align}
     \frac{\sin x}{x} & = \frac{1}{x} \left(x-\frac{x^3}{3!}-\frac{x^5}{5!}-\cdots \right) \nonumber \\
     & = 1 - \frac{x^2}{3!} - \frac{x^4}{5!} - \cdots \nonumber \\
-    & = \left(1-\frac{x}{\pi} \right) \left(1+\frac{x}{\pi} \right) \left( 1 - \frac{x}{\pi} \right) \left( 1 + \frac{x}{\pi} \right)\cdots
+    & = \left(1-\frac{x}{\pi}\right) \left(1+\frac{x}{\pi}\right) \left(1-\frac{x}{2\pi}\right) \left(1+\frac{x}{2\pi}\right)\cdots \label{eq2}
 \end{align}
-where the reasoning\footnote{This reasoning is actually true, just needs further justification.}
+where the reasoning\footnote{This reasoning is actually true, just needs further justification.} behind \eqref{eq2} is that a polynomial can be factored if its roots are known, and the roots of \(\sin x/x\) are \(\pm \pi, \pm 2\pi, \ldots\) Multiplying each pair of consecutive terms in this product gives
+\begin{equation}
+\left(1-\frac{x^2}{\pi^2}\right) \left(1-\frac{x^2}{4\pi^2}\right) \left(1-\frac{x^2}{9\pi^2}\right) \cdots \label{eq3}
+\end{equation}
+
+The coefficient of \(x^2\) in \eqref{eq3} is
+% the following is formated incorrectly
+\(\displaystyle - \frac{1}{\pi^2} - \frac{1}{4\pi^2}{} - \cdots = -\frac{1}{\pi^2} \sum\limits_{n=1}^{\infty} \frac{1}{n^2}\) the coefficient of \(x^2\) in \(\sin x/x\) is \(-1/3!\), so equating these two expressions proves the theorem.
 \end{proof}
+
+\printindex
 
 \end{document}
