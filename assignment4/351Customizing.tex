@@ -1,0 +1,239 @@
+\documentclass[11pt]{article}
+
+\usepackage{351package}
+
+\title{Customization and tables}
+\author{Math 351}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Almost everything in \LaTeX{} can be customized, including \LaTeX{} commands
+themselves.  The standard fonts, margin sizes, and so on, were carefully designed to 
+make technical documents readable, so changing the out-of-the-box behavior is not 
+always wise.  Nonetheless, there are times when it may be appropriate to customize.
+
+\section{Font size and face}
+
+To change to a 11 point font, use the \verb~[11pt]~ option in the initial 
+\verb~\documentclass~ command in this way:
+\begin{verbatim}
+\documentclass[11pt]{article}
+\end{verbatim}
+This document is typed in 11pt font.  The font size can also be 10pt (the default 
+option) or 12pt.  Another option in the \verb~\documentclass~ command is 
+\verb~twocolumn~, which has the effect of producing two columns per page.  
+
+The font face can be changed by including certain packages in the preamble of the 
+document.  For example, to change both the text and mathematics to the ``Times'' font, 
+include the command \verb~\usepackage{mathptmx}~ before the \verb~\begin{document}~.
+There are more cutting edge ways to change the font using XeLaTeX (which we will see later in the 
+course), but for now these packages are still used by many. 
+
+
+Most versions of \LaTeX{} have a number of pre-installed fonts, some of which can be 
+selected by calling these packages:
+\begin{center}
+\begin{tabular}{|lllll|}
+\hline
+\textbf{Package} & \textbf{Roman} & \textbf{Math} & \textbf{Sans serif} & \textbf{Typewriter} \\
+\hline
+\hline	
+(none) &  CM Roman &  CM Roman & CM Sans  & CM Typewriter \\	
+mathpazo &  Palatino &  Palatino &  &  \\
+mathptmx &  Times &  Times &  &  \\
+helvet &  &  &  Helvetica&  \\
+avant &  &  &  Avant Garde &  \\
+courier  &  &  &  &  Courier  \\
+chancery &  Chancery  &  &  &  \\
+bookman  &  Bookman  &  &  Avant Garde &  Courier  \\
+newcent  &  New Century  &  &  Avant Garde &  Courier  \\
+charter  &  Charter  &  &  &  \\
+\hline
+fourier  &  Utopia&  Fourier  &  &  \\
+eulervm  &  &  Euler &  &  \\ 
+\hline
+\end{tabular}
+\end{center}
+
+An empty entry indicates that a package does not have an effect on a given font face.  
+The last two font selections are listed separately because they are not usually found 
+in the basic version of \LaTeX{}, but are given by the ``texlive-full'' version.  
+Later in the course we will show how to include arbitrary font faces.
+
+To select the roman font, math font, sans serif font, and typewriter font separately, 
+include consecutive \verb~\usepackages~ in a correct order.  For example, the commands
+\begin{verbatim}
+\usepackage[sc]{mathpazo}
+\usepackage{charter}
+\usepackage[scaled]{helvet}
+\end{verbatim}
+uses the Palatino math font, Charter roman font, \textsf{Helvetica sans serif font} 
+(invoked by \verb~\textsf{..}~), and Computer Modern Typewriter font (as seen 
+in \verb~verbatim~ statements).  These are the choices made for this document.  
+The \verb~[sc]~ option on \verb~mathpazo~ gives a better small caps font, and the 
+\verb~[scaled]~ option on \verb~helvet~ gives an adjusted version of the Helvetica 
+font.
+
+To set the default font face for the entire document to the sans serif font, say, then
+place \verb~\renewcommand{\familydefault}{\sfdefault}~ in the preamble.  If using this
+command, then roman font can be invoked using \verb~\textrm{..}~. 
+
+\section{Margins and spacing}
+
+The margins of the document can be controlled with the \verb~geometry~ package.  To 
+set the left, top, right, and bottom margins to specific values, place a command such 
+as 
+\begin{verbatim}
+\usepackage[left=35mm,top=2cm,right=35mm,bottom=2cm]{geometry}
+\end{verbatim}
+in the preamble.  The margins used in this document are those values shown above.  As 
+another example,
+\begin{verbatim}
+\usepackage[landscape, margin=2in]{geometry}
+\end{verbatim}
+changes all margins to be 2 inches and prints in landscape mode.
+
+It usually bad form to manually adjust the vertical or horizontal spacing inside the 
+body of the document when writing an article or book, but it might be appropriate to 
+manually force white space when creating documents such as syllabi, exams, or resumes. 
+
+The line break command \verb~\\~ has an option to add extra space; to add an 
+extra \verb~1cm~, use \verb~\\[1cm]~.  Alternatively, to force an extra vertical space 
+of \verb~1cm~ between two paragraphs, the \verb~\vspace{1cm}~ command can be used.  
+Sometimes \LaTeX{} will think adding a vertical space using \verb~\vspace~ is a bad 
+idea and won't cooperate; such a vertical space can be demanded with the 
+command \verb~\vspace*{1cm}~.
+
+The \verb~\vfill~ command produces a length which can stretch or shrink vertically, 
+pushing the text after the \verb~\vfill~ command as far down the page as possible.  
+This command can be used in tandem with the \verb~\newpage~ command, which forces a 
+new page to begin.  For instance, if writing a mathematics exam, the \LaTeX{} commands
+\begin{verbatim}
+\begin{problem} Evaluate \( \int \ln x \, dx \). \end{problem}
+\vfill
+\begin{problem} Evaluate \( \int \sin x \, dx \). \end{problem}
+\vfill
+\newpage
+\end{verbatim}
+will produce the next page in the document (provided the \verb~amsthm~ package is 
+loaded and \verb~\theoremstyle{definition}~ and \verb~\newtheorem{problem}{}~ both 
+appear in the preamble).
+
+\newpage
+
+\begin{problem} Evaluate \( \int \ln x \, dx \). \end{problem}
+\vfill
+\begin{problem} Evaluate \( \int \sin x \, dx \). \end{problem}
+\vfill
+
+\newpage
+
+Analogous to the \verb~\vspace~, \verb~\vspace*~, and \verb~\vfill~ commands are the 
+\verb~\hspace~, \verb~\hspace*~, and \verb~\hfill~ commands, which produce horizontal 
+space, a forced horizontal space, and a rubber horizontal fill.  
+
+\section{Newcommands and style files}
+
+\LaTeX{} commands themselves can be customized.  To create a new command, place
+\begin{verbatim}
+\newcommand{\name}{definition}
+\end{verbatim}
+in the preamble.  Then, to call the command, use \verb~\name~ in the document.  The 
+compiler will complain if \verb~\name~ is a predefined \LaTeX{} command.  
+The \verb~\newcommand~ command has an optional parameter to include input.  For 
+instance,
+\begin{verbatim}
+\newcommand{\integral}[2]{\( \int_{\mathbb{R}} #1 \, d#2 \)}
+\end{verbatim}
+defines the command \verb~\integral~ which takes in 2 inputs, placed where the 
+\verb~#1~ and \verb~#2~ appear in the definition.  If this command was in the preamble,
+then calling the command \verb~\integral{\sin x}{x}~ would 
+produce \integral{\sin x}{x}.  There can be up to 9 inputs.
+
+For function names in math mode which are not predefined (such 
+as $\ln x$, $\sin x$, $\arctan x$), use the command such as  
+\verb~\DeclareMathOperator{\dimension}{dim}~ 
+to define a command \verb~\dimension~.  This produces ``$\dimension$'', a math mode 
+symbol.
+
+To redefine a previously defined \LaTeX{} command, use the syntax
+\begin{verbatim}
+\renewcommand{\old}{\new}
+\end{verbatim}
+For instance, \verb~\renewcommand{\phi}{\varphi}~ changes the appearance of $\phi$ 
+throughout the document.  As another example, this command can be used to change the 
+end-of-proof symbol in the \verb~amsthm~ proof environment into creating a black 
+square pushed to the right of the line by including
+\verb~\renewcommand{\qed}{\hfill \( \blacksquare \)}~
+in the preamble.
+
+Analogous to \verb~\newcommand~, there is a \verb~\newenvironment~ command to create
+custom environments.  The syntax to be placed in the preamble is 
+\begin{verbatim}
+\newenvironment{name}{before}{after}
+\end{verbatim}
+To call the command, use \verb~\begin{name} .. \end{name}~.  Then, commands in 
+\verb~before~ are run before \verb~..~ and commands in \verb~after~ are run after
+\verb~..~.  Just like \verb~\newcommand~, there is an option for up to $9$ input 
+variables.  For example, the command
+\begin{verbatim}
+\newenvironment{tinytext}{tiny text:\begin{tiny}}{\end{tiny}!}
+\end{verbatim}
+can be used to create \begin{tinytext}This text really is quite small\end{tinytext}
+
+After loading packages, choosing the font, setting margins, and defining new commands
+and new environments, the preamble can become lengthy.  Especially when reusing the 
+same preamble for multiple documents, it may be convenient to store the preamble
+in a file with the \verb~.sty~ extension (the \verb~.sty~ stands for ``style file'').
+In the first line of the style file, place the command 
+\begin{verbatim}
+\ProvidesPackage{351package}
+\end{verbatim}
+and then call the package just like any other package with the 
+\verb~\usepackage~ command in the preamble of the main document.
+
+\section{Tables}
+
+\LaTeX{} is not the software of choice to make complicated, detailed spreadsheets, 
+but for simple and short tables there is the tabular environment.  The syntax
+to create a table is 
+\begin{verbatim}
+\begin{tabular}{column specification}
+.. & .. & .. \\
+.. & .. & .. \\
+\end{tabular}
+\end{verbatim}
+where \verb~column specification~ is a string containing these characters:
+\begin{center}
+\begin{tabular}{cl}
+\verb~l~ & for a column of left aligned text, \\
+\verb~c~ & for a column of centered text, \\
+\verb~r~ & for a column of right aligned text, \\ 
+\verb~|~ & to create a vertical bar, or \\
+\verb~p{width}~ & for a column with wraparound text of length \verb~width~.
+\end{tabular}
+\end{center}
+The syntax for moving to the next column and starting a new line is the same 
+syntax as when using the \verb~\begin{matrix}..\end{matrix}~ command in math mode.
+
+To create a horizontal line in the \verb~tabular~ environment, use the command
+\verb~\hline~.  We end with one more example of a \verb~tabular~ command, giving the
+addition table for the additive group $\mathbb{Z}_4$:
+\begin{center}
+\begin{tabular}{c|cccc}
+$\mathbb{Z}_4$ & $0$ & $1$ & $2$ & $3$ \\
+\hline 
+$0$ & $0$ & $1$ & $2$ & $3$ \\
+$1$ & $1$ & $2$ & $3$ & $0$ \\
+$2$ & $2$ & $3$ & $0$ & $1$ \\
+$3$ & $3$ & $0$ & $1$ & $2$ \\
+\end{tabular}
+\end{center}
+There are many more examples of tables of varying complexity on pages 45--48 
+of the text.  Later, when we discuss packages, we will introduce the wonderful booktabs 
+environment for better looking tables. 
+
+\end{document}

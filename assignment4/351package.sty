@@ -1,0 +1,23 @@
+\ProvidesPackage{351package}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage[pdftitle = {Cal Poly Math 351}, pdfauthor = {Tony Mendes}, pdfsubject = {Typesetting}, colorlinks = true, urlcolor = blue, linkcolor = blue, citecolor = blue]{hyperref}
+
+\theoremstyle{definition}
+\newtheorem{problem}{}
+\newtheorem{definition}{Definition}
+
+\usepackage[left=35mm,top=2cm,right=35mm,bottom=2cm]{geometry}
+
+\usepackage[sc]{mathpazo}
+\usepackage{charter}
+\usepackage[scaled]{helvet}
+
+\DeclareMathOperator{\dimension}{dim}
+
+\newcommand{\integral}[2]{\( \int_{\mathbb{R}} #1 \, d#2 \)}
+
+\renewcommand{\phi}{\varphi}
+\renewcommand{\qed}{\hfill \( \blacksquare \)}
+
+\newenvironment{tinytext}{tiny text:\begin{tiny}}{\end{tiny}!}
