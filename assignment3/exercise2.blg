@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: exercise2.aux
+The style file: alpha.bst
+Database file #1: exercise2.bib
+Warning--empty booktitle in 46351
+You've used 3 entries,
+            2543 wiz_defined-function locations,
+            572 strings with 4797 characters,
+and the built_in function-call counts, 1056 in all, are:
+= -- 96
+> -- 58
+< -- 1
++ -- 21
+- -- 20
+* -- 68
+:= -- 191
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 18
+chr.to.int$ -- 3
+cite$ -- 4
+duplicate$ -- 45
+empty$ -- 75
+format.name$ -- 24
+if$ -- 207
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 22
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 22
+swap$ -- 3
+text.length$ -- 1
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 8
+width$ -- 4
+write$ -- 38
+(There was 1 warning)

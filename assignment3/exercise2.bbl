@@ -1,0 +1,18 @@
+\begin{thebibliography}{XBJ17}
+
+\bibitem[SFH17]{46351}
+Sara Sabour, Nicholas Frosst, and Geoffrey Hinton.
+\newblock Dynamic routing between capsules.
+\newblock 2017.
+
+\bibitem[Str12]{strogatz2012joy}
+S.H. Strogatz.
+\newblock {\em The Joy of X: A Guided Tour of Math, from One to Infinity}.
+\newblock An Eamon Dolan book. Houghton Mifflin Harcourt, 2012.
+
+\bibitem[XBJ17]{2017arXiv171203480X}
+E.~{Xi}, S.~{Bing}, and Y.~{Jin}.
+\newblock {Capsule Network Performance on Complex Data}.
+\newblock {\em ArXiv e-prints}, December 2017.
+
+\end{thebibliography}
