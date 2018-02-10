@@ -1,0 +1,26 @@
+\ProvidesPackage{mypckg}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage[pdftitle = {Assignment 3}, pdfauthor = {Cameron Fredrickson}, pdfsubject = {Typesetting}, colorlinks = true, urlcolor = blue, linkcolor = blue, citecolor = blue]{hyperref}
+
+\usepackage{mathptmx}
+\usepackage{bookman}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[margin=1in]{geometry}
+
+\theoremstyle{definition}
+\newtheorem{problem}{}
+\newtheorem{definition}{Definition}
+
+\newcommand{\integral}[2]{\( \int_{\mathbb{R}} #1 \, d#2 \)}
+
+\newcommand{\truthtable}[5]{\begin{tabular}{cc|c}
+$A$ & $B$ & $#1$ \\
+\hline
+F & F & #2 \\
+F & T & #3 \\
+T & F & #4 \\
+T & T & #5 \\
+\end{tabular}}
