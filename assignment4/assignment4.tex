@@ -3,15 +3,27 @@
 \usepackage{mypckg}
 
 \title{Assignment 4}
-\author{Cameron Fredrickson}
+\author{Exercise 2}
 \date{}
 
 \begin{document}
 
 \maketitle
 
-\begin{proofbyc}
-Brian is false
-\end{proofbyc}
+Introductory courses on mathematical reasoning usually include the topics of truth tables and proofs by contradiction. We display one such truth table below, defining the logic operation of the Sheffer stroke. % line break at "con-tradiction"
+\begin{center}
+\truthtable{A \uparrow B}{T}{T}{T}{F}
+\end{center}
+The Sheffer stroke alone can be used to create each of the logic operations of and, or, not, and implies. For example, we display two equivalent truth tables representing "or", centered and separated by a \verb#\qquad#: % line break after "For"
+\begin{center}
+\truthtable{A \lor B}{F}{T}{T}{T} \qquad \truthtable{\left(A \uparrow B\right) \uparrow \left(B \uparrow B\right)}{F}{T}{T}{T}
+\end{center}
 
+We display one of the oldest known proofs by contradiction in the proof of Theorem .
+
+\begin{theorem} There is no largest prime. \end{theorem}
+
+\begin{proofbyc}
+    If $p$ is the largest prime, then all primes divide $p!$. This implies $p!+1$ does not have a prime divisor.
+\end{proofbyc}
 \end{document}

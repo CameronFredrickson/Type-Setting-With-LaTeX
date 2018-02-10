@@ -13,10 +13,11 @@
 \theoremstyle{definition}
 \newtheorem{problem}{}
 \newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
 
 \newcommand{\integral}[2]{\( \int_{\mathbb{R}} #1 \, d#2 \)}
 
-\newcommand{\truthtable}[5]{\begin{tabular}{cc|c}
+\newcommand{\truthtable}[5]{\begin{tabular}{ccc}
 $A$ & $B$ & $#1$ \\
 \hline
 F & F & #2 \\
@@ -25,4 +26,4 @@ T & F & #4 \\
 T & T & #5 \\
 \end{tabular}}
 
-\newenvironment{proofbyc}{\textit{Proof by Contradiction}}{\(\Rightarrow \Leftarrow\)}
+\newenvironment{proofbyc}{$\textit{Proof by Contradiction.}$}{\(\Rightarrow \Leftarrow\)}
