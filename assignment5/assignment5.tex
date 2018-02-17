@@ -39,7 +39,34 @@
     \end{tikzpicture}
     \end{center}
 
-    \item
+    \newpage
+
+    \item One representation of a Wagner Graph.
+    \begin{center}
+    \begin{tikzpicture}[scale = 1.25]
+    \tikzstyle{every node} = [draw, circle, fill = red!50, inner sep = 1ex];
+    \node (v0) at (-3,0) {\texttt{0}};
+    \node (v1) at (-2.3,2.3) {\texttt{1}};
+    \node (v2) at (0,3.) {\texttt{2}};
+    \node (v3) at (2.3,2.3) {\texttt{3}};
+    \node (v4) at (3,0) {\texttt{4}};
+    \node (v5) at (2.3,-2.3) {\texttt{5}};
+    \node (v6) at (0,-3) {\texttt{6}};
+    \node (v7) at (-2.3,-2.3) {\texttt{7}};
+    \draw (v0) -- (v4);
+    \draw (v1) -- (v5);
+    \draw (v2) -- (v7);
+    \draw (v3) -- (v6);
+    \draw (v0) -- (v1);
+    \draw (v1) -- (v2);
+    \draw (v2) -- (v3);
+    \draw (v3) -- (v4);
+    \draw (v4) -- (v5);
+    \draw (v5) -- (v6);
+    \draw (v6) -- (v7);
+    \draw (v7) -- (v0);
+    \end{tikzpicture}
+    \end{center}
 \end{enumerate}
 
 \end{document}
