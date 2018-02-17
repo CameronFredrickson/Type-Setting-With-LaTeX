@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage{amssymb, amsmath, amsthm, graphicx, tikz, tikz-3dplot}
-
+\usepackage{gensymb}
 \usepackage[pdftitle = {Assignment 5},
   pdfauthor = {Cameron Fredrickson},
   pdfsubject = {Typesetting},
@@ -41,18 +41,18 @@
 
     \newpage
 
-    \item One representation of a Wagner Graph.
+    \item Wikipedia states: \href{https://en.wikipedia.org/wiki/Wagner_graph}{In the mathematical field of graph theory, the Wagner Graph is a 3-regular graph with 8 verticies and 12 edges}. In a regular graph each vertex has the same number of neighbors, where vertex $B$ is a neighbor of vertex $A$ if vertex $B$ shares an edge with vertex $A$. Here is one representation of a Wagner Graph\footnote{To graph this I assumed the picture on \href{http://mathworld.wolfram.com/WagnerGraph.html}{Wolfram Alpha} was of a regular octogon (equiangular and equilateral) turned on it's side. I thought about how to find the interior angles of a polygon starting with a square. I split the square along one of the diagonals into two triangles and found that the sum of the interior angles of a triangle (180\degree), times the number of triangles the square was split into, divided by the number of interior angles of the square equaled the the value of one of the interior angles of the square, 90\degree. I then used this same formula to find the interior angle of a regular octogon. From there I realized that the vertcies along the diagonals of the tilted regular octogon lie on the line $y = -x$ assuming the center of the octogon is the origin of the $xy$ plane. }.
     \begin{center}
     \begin{tikzpicture}[scale = 1.25]
     \tikzstyle{every node} = [draw, circle, fill = red!50, inner sep = 1ex];
     \node (v0) at (-3,0) {\texttt{0}};
-    \node (v1) at (-2.3,2.3) {\texttt{1}};
+    \node (v1) at (-2,2) {\texttt{1}};
     \node (v2) at (0,3.) {\texttt{2}};
-    \node (v3) at (2.3,2.3) {\texttt{3}};
+    \node (v3) at (2,2) {\texttt{3}};
     \node (v4) at (3,0) {\texttt{4}};
-    \node (v5) at (2.3,-2.3) {\texttt{5}};
+    \node (v5) at (2,-2) {\texttt{5}};
     \node (v6) at (0,-3) {\texttt{6}};
-    \node (v7) at (-2.3,-2.3) {\texttt{7}};
+    \node (v7) at (-2,-2) {\texttt{7}};
     \draw (v0) -- (v4);
     \draw (v1) -- (v5);
     \draw (v2) -- (v7);
@@ -67,6 +67,7 @@
     \draw (v7) -- (v0);
     \end{tikzpicture}
     \end{center}
+
 \end{enumerate}
 
 \end{document}
