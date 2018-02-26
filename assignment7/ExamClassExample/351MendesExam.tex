@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+
+\usepackage{amssymb,amsmath,amsthm,mathptmx,enumitem}
+\usepackage[margin=1in]{geometry} 
+
+\theoremstyle{definition}
+\newtheorem{question}{}
+
+\DeclareMathOperator{\dm}{dim}
+\DeclareMathOperator{\nll}{null}
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\rng}{range} 
+
+\setlength{\parindent}{0ex}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{large} Linear Algebra II Midterm 1 \end{large} \hfill Name: \hspace{30ex} \\[-2ex]
+\rule{\textwidth}{.1ex}
+
+\begin{question}
+State the definitions of:
+\begin{enumerate}[leftmargin = *, label={\alph*.}]
+\item The span of the vectors $v_1,\dots,v_k$. \vfill 
+\item Linearly independent vectors $v_1,\dots,v_k$. \vfill 
+\item The dimension of a subspace $U$ of a vector space $V$. \vfill  
+\item A linear map $T \in \mathcal{L}(V,W)$. \vfill 
+\end{enumerate}
+\end{question}
+
+\newpage
+
+\begin{question}
+Let $v_1,\dots,v_n$ be a basis for $V$.  Prove that each $v \in V$ is a \emph{unique} 
+linear combination of $v_1,\dots,v_n$. 
+\end{question}
+
+\newpage
+
+\begin{question}
+The range of a linear map $T: V \rightarrow W$ is 
+\( \rng T = \{T v : v \in V\}. \)  Prove that $\rng T$ is a subspace of $W$.  
+\end{question}
+
+\newpage
+
+\begin{question}
+Let $v_1,\dots,v_m$ and $w_1,\dots,w_n$ be linearly independent vectors in $V$.  
+Let $U = \spn( v_1,\dots,v_m)$ and $W = \spn( w_1,\dots,w_n )$.  Prove that 
+$U + W$ is a direct sum. 
+\end{question}
+
+\newpage
+
+\begin{question}
+  Give an example of a linear map $T :  M_{2,2}(\mathbb{C}) \rightarrow P_2(\mathbb{C})$
+  such that $\dm (\nll T) = 2$. 
+\end{question}
+
+\newpage
+
+\begin{question}
+Give an example of a nontrivial subspace of $\mathbb{R}^{\mathbb{R}}$ that does not have finite dimension.
+\end{question}
+
+\end{document}
