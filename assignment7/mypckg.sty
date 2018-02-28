@@ -1,0 +1,36 @@
+\ProvidesPackage{mypckg}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage[pdftitle = {Assignment 3}, pdfauthor = {Cameron Fredrickson}, pdfsubject = {Typesetting}, colorlinks = true, urlcolor = blue, linkcolor = blue, citecolor = blue]{hyperref}
+
+\usepackage{mathptmx}
+\usepackage{bookman}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[margin=1in]{geometry}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+
+\newcommand{\integral}[2]{\( \int_{\mathbb{R}} #1 \, d#2 \)}
+
+\newcommand{\truthtable}[5]{\begin{tabular}{ccc}
+$A$ & $B$ & $#1$ \\
+\hline
+F & F & #2 \\
+F & T & #3 \\
+T & F & #4 \\
+T & T & #5 \\
+\end{tabular}}
+
+\newcommand{\tictactoe}[9]{\begin{tabular}{c|c|c}
+$#1$ & $#2$ & $#3$ \\
+\hline
+$#4$ & $#5$ & $#6$ \\
+\hline
+$#7$ & $#8$ & $#9$ \\
+\end{tabular}}
+
+\newenvironment{proofbyc}{$\textit{Proof by Contradiction.}$}{\(\Rightarrow \Leftarrow\)}
