@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cal Poly Marketing -   Graphic Standards</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a5976a">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/style.css" type="text/css"/>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/js/global.js"></script>
+     <script>
+        $(function(){
+            var video = $("video");
+            video.removeAttr("controls");
+        });
+    </script>
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-102181678-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+    <link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/universitymarketing.calpoly.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=8c8ce9e5949a7cea371f732f8ca5ac14"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='https://universitymarketing.calpoly.edu/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://universitymarketing.calpoly.edu/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://universitymarketing.calpoly.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://universitymarketing.calpoly.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://universitymarketing.calpoly.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://universitymarketing.calpoly.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://universitymarketing.calpoly.edu/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/" />
+<link rel='shortlink' href='https://universitymarketing.calpoly.edu/?p=65' />
+<link rel="alternate" type="application/json+oembed" href="https://universitymarketing.calpoly.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Funiversitymarketing.calpoly.edu%2Fresources%2Fgraphic-standards%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://universitymarketing.calpoly.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Funiversitymarketing.calpoly.edu%2Fresources%2Fgraphic-standards%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//universitymarketing.calpoly.edu/?wordfence_lh=1&hid=A8488DA228B407166FA28F9759776CA3');
+</script></head>
+
+<body>
+    <div class="wrapper">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <div class="site__header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="http://www.calpoly.edu/">
+                            <img class="u-mobile--up" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/logo.png" alt="Cal Poly" title="Go to Cal Poly Home">
+                            <img class="u-mobile--down" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/logo-mobile.png" alt="Cal Poly" title="Go to Cal Poly Home">
+                        </a>
+                    </div>
+                    <div class="js-toggle-slide nav-mobile__button u-mobile--down" data-target=".nav">
+                        Menu <div class="icon icon__hamburger">Menu</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero">
+            <div class="site__header-sub">
+                <div class="container">
+                    <h1 class="header__heading"><a href="https://universitymarketing.calpoly.edu">University Marketing</a></h1>
+                    <nav class="nav u-mobile--up">
+                        <ul class="nav__wrapper">
+                            <li class="nav__item"><a class="nav__link" href="https://universitymarketing.calpoly.edu/contact-us/">Contact Us</a></li><li class="nav__item"><a class="nav__link" href="https://universitymarketing.calpoly.edu/portfolio/">Portfolio</a></li><li class="nav__item"><a class="nav__link" href="https://universitymarketing.calpoly.edu/resources/">Resources</a></li><li class="nav__item"><a class="nav__link" href="https://universitymarketing.calpoly.edu/services/">Services</a></li><li class="nav__item"><a class="nav__link" href="http://universitymarketing.calpoly.edu/contact-us/frequently-asked-questions/">FAQ</a></li>                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero__content">
+                
+                    
+                        <div class="hero__item">
+                            <img class="hero__image" src="https://universitymarketing.calpoly.edu/wp-content/uploads/2015/10/clock_tower.jpg" alt="">
+                        </div>
+
+                    
+
+                            </div>
+                        <div class="hero__page-title">
+                <div class="page-title">
+                    <div class="container">
+                        <h2 class="u-weight--normal page-title--text">Graphic Standards</h2>
+                    </div>
+                </div>
+            </div>
+                    </div>
+
+    <section class="container article-wrap article-wrap--lg">
+    	<div class="row">
+            <div class="c c-xxl-4 c-sm-12">
+                <div class="sidebar sidebar--sm-full sidebar-md">
+    <div class="sidebar__nav-header js-toggle-slide" data-target=".sidebar__nav-dropdown">
+        <h4 class="u-color__green sidebar__nav-heading sidebar__nav-heading-md" >
+                    <span class="u-mobile--up">
+            <a href="https://universitymarketing.calpoly.edu/resources/">
+            Resources            </a>
+          </span>
+          <span class="u-mobile--down-inline">Menu</span>
+        </h4>
+        <div class="dropdown-triangle"></div>
+    </div>
+    <div class="sidebar__nav-dropdown">
+        <ul class="sidebar__nav sidebar__nav--page sidebar__nav-sm">
+
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-713"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/brand/">The Cal Poly Brand</a></div>
+<div class='js-menu-accordion menu-accordion'><div class='menu-accordion__open'>+</div><div class='menu-accordion__close'>-</div></div><ul class='sidebar__sub-list sidebar__sub-list-sm sidebar-sub-list-md'>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-715"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/brand/the-cal-poly-brand/">Brand Overview</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-717"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/brand/review-guidelines/">Brand Review Guidelines</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-719"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/brand/review-checklist/">Brand Review Checklist</a></div></li>
+</ul>
+</li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-65 current_page_item"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/">Graphic Standards</a></div>
+<div class='js-menu-accordion menu-accordion'><div class='menu-accordion__open'>+</div><div class='menu-accordion__close'>-</div></div><ul class='sidebar__sub-list sidebar__sub-list-sm sidebar-sub-list-md'>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-685"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/the-cal-poly-name-2/">The Cal&nbsp;Poly Name</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-216"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/the-wordmark/">The Wordmark</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-209"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/the-academic-shield/">The Academic Shield</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-211"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/secondary-marks/">Secondary Marks</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-213"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/other-marks/">Spirit Marks</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-880"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/university-seal/">University Seal</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-336"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/proper-use/">Proper Use</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-218"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/official-typefaces/">Official Typefaces</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-220"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/typestyles/">Typestyles</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-223"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/primary-colors/">Primary Colors</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-225"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/secondary-colors/">Secondary Colors</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-696"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/tones/">Tones</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-227"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/email-signature/">Email Signature</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-387"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/stationery/">Stationery</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-932"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/graphic-standards/glossary-2/">Glossary</a></div></li>
+</ul>
+</li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-75"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/photography/">Photography</a></div></li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-109"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/social-media/">Social Media</a></div>
+<div class='js-menu-accordion menu-accordion'><div class='menu-accordion__open'>+</div><div class='menu-accordion__close'>-</div></div><ul class='sidebar__sub-list sidebar__sub-list-sm sidebar-sub-list-md'>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-153"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/policy/">Policy</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-147"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/starting-an-account/">Starting an Account</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-151"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/identity/">Identity</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-149"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/how-to/">Posting Tips</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-145"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/strategy/">Strategy</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-155"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/">User Guides by Channel</a></div>
+	<div class='js-menu-accordion menu-accordion'><div class='menu-accordion__open'>+</div><div class='menu-accordion__close'>-</div></div><ul class='sidebar__sub-list sidebar__sub-list-sm sidebar-sub-list-md'>
+		<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-157"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/facebook/">Facebook</a></div></li>
+		<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-159"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/twitter/">Twitter</a></div></li>
+		<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-161"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/instagram/">Instagram</a></div></li>
+		<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-165"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/linkedin/">LinkedIn</a></div></li>
+		<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-163"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/social-media/user-guides-by-channel/youtube/">YouTube</a></div></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-111"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/editorial-style-guide/">Editorial Style Guide</a></div></li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-113"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/digital-templates/">Digital Templates</a></div></li>
+<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1460"><div class="sidebar__item-container"><a class="list__link list__link-sm list__link-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/">Trademark Licensing</a></div>
+<div class='js-menu-accordion menu-accordion'><div class='menu-accordion__open'>+</div><div class='menu-accordion__close'>-</div></div><ul class='sidebar__sub-list sidebar__sub-list-sm sidebar-sub-list-md'>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1469"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/about/">About</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1471"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/management/">Management</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1473"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/guidelines/">Guidelines</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1475"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/groups/">Campus Organizations and Student Groups</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1478"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/departments/">Departments</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1480"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/request-form/">Student &#038; Internal Request to Use the Cal Poly Name</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1482"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/royalties/">Royalties</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1484"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/awareness/">Awareness</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1487"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/logos/">Logos</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1490"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/licensees/">Licensees</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1492"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/vendors/">Vendors</a></div></li>
+	<li class="sidebar__nav-item sidebar__nav-item-sm sidebar__nav-item-md page_item page-item-1499"><div class="sidebar__item-container"><a class="list__link list__link--sub list__link--sub-sm list__link--sub-md" href="https://universitymarketing.calpoly.edu/resources/trademark-licensing/faq/">FAQ</a></div></li>
+</ul>
+</li>
+        </ul>
+
+
+      
+    </div>
+</div>            </div>
+            <div class="c c-xxl-8 c-sm-12 article--2">
+               <p>Cal Poly is known and recognized throughout the United States and, increasingly, throughout the world. Therefore, it is critical that the visual elements that represent the institution do so consistently and with integrity.</p>
+<p>Educational institutions nationally recognize the importance of brand consistency. Universities have implemented cohesive standards to protect their images, enhance the value of their names, and build a successful branding foundation. Positive recognition occurs when an institution presents itself consistently over time, creating an emotional connection with the viewer.</p>
+<p>A proliferation of independent, decentralized identities and symbols creates confusion in the minds of audiences whose support we seek: students, prospective students, parents, alumni, donors and supporters. While logos and symbols are not the sole elements of an institutional brand, they are the core of its visual representation and extension. When that visual representation is disconnected or inconsistent.</p>
+<p>Conversely, a visual identity used consistently over time leads to an enhanced image, instant recognition and higher recall.</p>
+<p>Differentiating Cal Poly, therefore, is critical not only because of the sheer number of institutions competing for students and support, but also because our long-term success depends on it.</p>
+<p>Every message that reinforces our institutional identity counts. Finally, consistency in visual identity protects Cal Poly’s patents, licenses and trademarks, and increases the value of our identity over the long term.</p>
+<p>By following these standards, we build not only consistency but also protect our most valuable asset: the Cal Poly brand.</p>
+<p>&nbsp;</p>
+<h2>The Role of University Marketing</h2>
+<hr />
+<p>The <strong>University Marketing</strong> office serves as steward of the Cal Poly brand and provides guidance to the university community about the most effective ways to communicate brand consistency in all forms of media. All non-scholarly communications and publications bearing Cal Poly marks and intended for distribution outside the university must be approved by University Marketing staff.</p>
+<p>The <strong>Creative Services Department</strong> is part of University Marketing and is responsible for the development and management of the university’s graphic identity, including names, logos, typefaces and colors. Creative Services offers a variety of brand-related resources and guidelines to campus partners and approves all non-commercial use of university marks.</p>
+<p>Digitized artwork of the logotypes and secondary marks may be obtained from Creative Services.</p>
+<p>For questions regarding university marks; approval for use on official communications, publications or collateral; use of the brand or graphic identity; or graphic design and video services offered by Creative Services, email <a href="mailto:designsupport@calpoly.edu">designsupport@calpoly.edu</a> or call 805-756-1511.</p>
+<p>&nbsp;</p>
+<h2>Our Partners</h2>
+<hr />
+<p>The <strong>Athletics Advancement</strong> office manages and approves the non-commercial use of all Cal Poly athletics marks.</p>
+<p><a href="http://www.gopoly.com/inside_athletics/CalPolystyleguide_0716_Update.pdf" target="_blank" rel="noopener"><em>→Click here for the Cal Poly Athletics Brand and Graphics Guidelines</em></a></p>
+<p>The <strong>Trademark Licensing</strong> office, in partnership with IMG College monitors commercial use of all Cal Poly university and athletics marks. Individuals, groups and organizations (including recognized student organizations), both on and off campus, seeking to produce any product using the Cal Poly name and/or trademarks must use a licensed manufacturer.</p>
+<p><em><a href="https://afd.calpoly.edu/tm_licensing/vendors.asp">→ Click here for a list of approved licensed vendors/manufacturers</a></em></p>
+<p><em>→<a href="https://afd.calpoly.edu/tm_licensing/">Click here for more information about Cal Poly’s trademark licensing program</a></em></p>
+<p>The <strong>Contracts and Procurement</strong> office oversees suppliers and purchasing contracts. All printed material bearing university marks should be ordered through a university- preferred supplier.</p>
+<p><em>→<a href="https://afd.calpoly.edu/cprm/printing.asp" target="_blank" rel="noopener">Click here for information on approved printers and suppliers</a></em></p>
+                
+            </div>
+        </div>
+    </section>
+            <div class="push"></div>
+        </div>
+        <footer class="site__footer">
+            <div class="container" >
+                <a href="http://www.calpoly.edu/" class="footer__logo">
+                    <img src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/logo2.png" alt="Cal Poly">
+                </a>
+                <nav class="footer__nav">
+                    <ul class="footer__nav-wrapper">
+                        <li class="footer__nav--item"><a class="invert__link" href="https://universitymarketing.calpoly.edu/contact-us/">Contact Us</a></li><li class="footer__nav--item"><a class="invert__link" href="https://universitymarketing.calpoly.edu/portfolio/">Portfolio</a></li><li class="footer__nav--item"><a class="invert__link" href="https://universitymarketing.calpoly.edu/resources/">Resources</a></li><li class="footer__nav--item"><a class="invert__link" href="https://universitymarketing.calpoly.edu/services/">Services</a></li><li class="footer__nav--item"><a class="invert__link" href="http://universitymarketing.calpoly.edu/contact-us/frequently-asked-questions/">FAQ</a></li>                    </ul>
+                </nav>
+                <div class="footer__info u-margin-b--none">
+                    <p class="footer__info-addr">University Marketing<br>California Polytechnic State University<br>San Luis Obispo, California 93407</p>
+                    <p class="footer__info-tel"><a href="tel:805-756-1511">805-756-1511</a></p>
+                    <p class="footer__info-email"><a href="mailto:designsupport@calpoly.edu">designsupport@calpoly.edu</a></p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/CaliforniaPolytechnic" class="footer__social-item"><img width="12" height="23" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/CalPoly" class="footer__social-item"><img width="23" height="19" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.linkedin.com/edu/california-polytechnic-state-university-san-luis-obispo-17816" class="footer__social-item"><img width="18" height="18" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://instagram.com/cal_poly/" class="footer__social-item"><img width="23" height=" 23" src="https://universitymarketing.calpoly.edu/wp-content/themes/cpmrkt/_assets/images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </footer>
+       <script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/universitymarketing.calpoly.edu\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://universitymarketing.calpoly.edu/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
+<script type='text/javascript' src='https://universitymarketing.calpoly.edu/wp-includes/js/wp-embed.min.js?ver=8c8ce9e5949a7cea371f732f8ca5ac14'></script>
+    </body><!-- GF -->
+</html>

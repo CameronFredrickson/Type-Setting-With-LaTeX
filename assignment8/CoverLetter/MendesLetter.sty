@@ -1,0 +1,50 @@
+\ProvidesPackage{MendesLetter} 
+
+\usepackage{microtype,tikz,enumitem}
+\usepackage[left=1.3333in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[pdfborder={0 0 0}, pdfauthor={Anthony Mendes, Cal Poly San Luis Obispo}]{hyperref}
+\usepackage[absolute]{textpos}
+
+% These next four lines require comiling with xelatex.  Remove to use pdflatex.
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setmonofont{InconsolataGo-Regular.ttf}
+\setsansfont{AvenirLTStd-Book.otf}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+\definecolor{green}{RGB}{3,86,66}
+\definecolor{gold}{RGB}{180,167,108}
+
+\newcommand{\cpheader}{
+\begin{textblock}{20}(1.75,1.75)
+\begin{tikzpicture}[x = 1cm, y = 1cm]
+\node at (0,0) {\includegraphics{MendesLetterShield}};
+\node at (2.5,.35) {\href{http://www.calpoly.edu}{\includegraphics[width=3.25cm]{MendesLetterCP}}};
+\draw [line width = 0.1mm, color = gold] (.9,0) -- (16.6,0);
+\node [right] at (.75,-.25) {\href{http://cosam.calpoly.edu}{\scriptsize College of Science and Mathematics}};
+\node [right] at (.75,-.6) {\scriptsize \href{http://math.calpoly.edu}{\textit{Mathematics Department}}};
+\end{tikzpicture}
+\end{textblock}
+\vspace*{10ex}
+}
+
+\newcommand{\cpfooter}{
+\begin{textblock}{10}(1.75,26)
+  {\footnotesize \textsf{\href{http://www.calpoly.edu/~aamendes}{Anthony Mendes} $|$ \color{green}
+      {aamendes@calpoly.edu}}}
+\end{textblock}
+\begin{textblock}{20}(1.75,26.425)
+{\footnotesize \textsf{\href{http://math.calpoly.edu}{Mathematics Department} $|$ 1 Grand Avenue $|$ San Luis Obispo $|$ CA $|$ 93407 }}
+\end{textblock}
+}
+
+\newcommand{\signature}{\hspace*{-1.25eM} \includegraphics[height=1cm]{MendesSignature} \\[-1.5ex] Anthony Mendes \\ Professor}
+
+\setlength{\parindent}{0ex}
+\setlength{\parskip}{1.5ex}
+\setlist[enumerate]{topsep=0pt,itemsep=0ex,partopsep=1ex,parsep=1ex}
+\setlist[itemize]{topsep=0pt,itemsep=0ex,partopsep=1ex,parsep=1ex}
+
+\pagestyle{empty}
