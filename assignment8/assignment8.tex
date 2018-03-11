@@ -1,3 +1,36 @@
 % pdflatex standard compilation
 % xelatex compiling for standard font
 % lualatex for lua
+
+\documentclass{article}
+
+\usepackage{microtype,amssymb,enumitem,color}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdfborder={0 0 0},pdfauthor={Cameron Fredrickson},
+            colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue]{hyperref}
+
+% These next four lines require comiling with xelatex.  Remove to use pdflatex.
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setmonofont{InconsolataGo-Regular}
+\setsansfont{AvenirLTStd-Book}
+
+\begin{document}
+
+\begin{center}
+{\begin{Huge} \textbf{Cameron Fredrickson}\end{Huge}}
+
+\medskip
+
+\textsf{chfredri@calpoly.edu} |
+\href{https://github.com/CameronFredrickson}{\textsf{https://github.com/CameronFredrickson}} |
+\textsf{\begin{small}(510)415-3982\end{small}}
+\end{center}
+
+\vspace{7mm}
+
+{\begin{large} \underline{\textbf{Education}} \end{large}}
+
+\end{document}
