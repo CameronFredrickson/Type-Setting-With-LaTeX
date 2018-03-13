@@ -1,0 +1,56 @@
+% How to tell they don't know what they're doing.
+% 1. \\, \vspace, \par
+% 2. long, unused packages called in preamble. (amsfonts)
+% 3. recreate standard solutions to common problems (use CTAN)
+
+
+% Tips:
+% 1. mini page side by side pages on the the same pdf page
+
+% \begin{minipage}
+% blah
+% \end{minipage}
+% \begin{minipage}
+% blah
+% \end{minipage}
+
+% 2. Figures and tables
+
+% 3. Unbreakable text use \mbox{texttext} no hyphen applied
+%   the ~ character is also an unbreakable character
+
+% 4. Tabbing environment used to set tab length
+%   Set tab with \= stuff \= foo \\
+%   \> more \> things
+
+\documentclass{article}
+
+\usepackage{microtype,amssymb,enumitem,color}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdfborder={0 0 0},pdfauthor={Cameron Fredrickson},
+            colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue]{hyperref}
+
+\usepackage{fontspec}
+\setmainfont{Courier Prime Code.ttf}
+
+\title{Assignment 9: Exercise 1}
+\author{Cameron Fredrickson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% \begin{minipage}
+
+\begin{tabbing}
+
+Font set.
+
+\end{tabbing}
+
+% \end{minipage}
+
+\end{document}
