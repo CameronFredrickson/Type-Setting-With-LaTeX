@@ -37,14 +37,10 @@
 
 \documentclass{article}
 
-\usepackage{microtype,amssymb,enumitem,color}
+%\usepackage{microtype,enumitem,color}
 \usepackage[margin=1in]{geometry}
-\usepackage[pdfborder={0 0 0},pdfauthor={Cameron Fredrickson},
-            colorlinks = true,
-            linkcolor = blue,
-            urlcolor  = blue]{hyperref}
 
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
 
 \usepackage{graphicx, tikz, tikz-3dplot, wrapfig}
 
@@ -59,14 +55,16 @@
 
 \maketitle
 
-% \begin{minipage}
-
 \begin{tabbing}
-col1 \= col2 \= col3
-$\displaystyle{\sum_{\substack{x+y+z=n \\
-        x,y,z\geq0}}}$
+col1 \= column 2 is this long \= column 3 is this longgggggggg \= column 4 is this long \kill \\
+\> (a) $\displaystyle{\sum_{\substack{x+y+z=n \\ x,y,z\geq0}}}{xyz}$ \> (b) $\displaystyle{\overbrace{\alpha + \beta + \gamma + \delta}^{\text{this equals 3}} + \underbrace{a + b + c + d}^{\text{this equals 4}}}$ \> (c) $\displaystyle{x^n + y^n \overset{\text{?}}{=} z^n \text{ for } x, y, z \in \mathbb{Z}}$
 \end{tabbing}
 
-% \end{minipage}
+\begin{minipage}[t][5cm][b]{0.5\textwidth}
+asdf
+\end{minipage}
+\begin{minipage}[t][5cm][b]{0.5\textwidth}
+askdlfj
+\end{minipage}
 
 \end{document}
